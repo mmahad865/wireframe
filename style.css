@@ -1,0 +1,64 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+header {
+    border: thin solid black;
+    background-color: rgb(57, 57, 57);
+    padding: 0px
+}
+h1 {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+nav {
+
+}
+
+li {
+height: 20px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    top: 0px;
+    color: gray;
+}
+
+#top {
+    position: absolute;
+        top: 0px;
+        left: 0px;
+}
+
+header li {
+    display: inline;
+    padding-left: 30px;
+
+}
+
+.colum{
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+
+}
+
+.row::after{
+   content: "";
+    display: table;
+   clear: both;
+}
+
+footer{
+    background-color: grey;
+    padding: 10px;
+    margin: 10px;
+}
